@@ -9,6 +9,7 @@ The analysis is done in Python using Pandas and Matplotlib, inside a Jupyter Not
 
 
 Dataset
+
 Source: Our World in Data / COVID-19 dataset
 Format: CSV
 Scope: Daily records for each country, including cases, deaths, testing, vaccination, and
@@ -26,6 +27,7 @@ After exploring the dataset, the following columns were selected for the core an
 
 
 Data Cleaning
+
 Like most real-world healthcare data, this dataset came with:
 • missing values
 • inconsistent country names
@@ -35,20 +37,21 @@ but an ongoing process throughout the analysis.
 
 
 Key Analyses
-First Confirmed Case Timeline
+
+First Confirmed Case Timeline - 
 For each country:
 • The first date with total_cases > 0 was extracted.
 • A timeline scatter plot shows how the virus spread globally.
 • Most countries reported cases within the first half of 2020, while many in Oceania did
 not report cases until 2021 due to geographical isolation.
 
-Peak Wave Detection
+Peak Wave Detection - 
 For each country:
 • The date of maximum daily new cases (new_cases) was calculated.
 • A bar chart shows how many countries peaked per month.
 • After cleaning, the majority of peaks clustered around Dec 2021 – Mar 2022.
 
-Case Fatality Ratio (CFR) Trends
+Case Fatality Ratio (CFR) Trends - 
 CFR was calculated as: CFR = total_deaths / total_cases
 Example comparisons were made between:
 • Greece
@@ -61,6 +64,7 @@ worldwide.
 
 
 Visualizations
+
 The notebook includes:
 • First-case timeline scatter plot
 • Bar chart of monthly peak waves
@@ -69,6 +73,7 @@ All visualizations are generated in Python.
 
 
 Conclusions
+
 The analysis highlights:
 • The rapid spread of COVID-19 in early 2020
 • How isolated island nations (especially in Oceania) remained COVID-free the longest
@@ -82,6 +87,7 @@ The project also reinforces the importance of:
 
 
 Tools Used
+
 • Python
 • Pandas
 • Matplotlib
@@ -90,14 +96,19 @@ Tools Used
 
 
 Contents
+
 • Jupyter Notebook with full code and plots
 • Exported PDF with results and commentary
 • This README
 
 
 Next Steps
+
 • Try a SQL version of the same analysis
 • Add forecasting models
 • Explore vaccination or mobility trends
+
+
 Contributions
+
 Suggestions, improvements, or pull requests are welcome

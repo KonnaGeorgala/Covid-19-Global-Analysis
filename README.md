@@ -5,13 +5,16 @@ in Data. I focused on three simple but interesting questions:
 1. When did each country report its first confirmed case?
 2. When did each country hit its peak in daily new cases?
 3. How did the Case Fatality Ratio (CFR) change over time?
+
 The analysis is done in Python using Pandas and Matplotlib, inside a Jupyter Notebook.
 
 
 Dataset
 
 Source: Our World in Data / COVID-19 dataset
+
 Format: CSV
+
 Scope: Daily records for each country, including cases, deaths, testing, vaccination, and
 demographic information.
 
@@ -32,6 +35,7 @@ Like most real-world healthcare data, this dataset came with:
 • missing values
 • inconsistent country names
 • entries with zero cases but included in totals
+
 The notebook emphasizes that data cleaning is not a one-time step
 but an ongoing process throughout the analysis.
 
@@ -53,6 +57,7 @@ For each country:
 
 Case Fatality Ratio (CFR) Trends - 
 CFR was calculated as: CFR = total_deaths / total_cases
+
 Example comparisons were made between:
 • Greece
 • Italy
@@ -69,6 +74,7 @@ The notebook includes:
 • First-case timeline scatter plot
 • Bar chart of monthly peak waves
 • CFR trend comparison line plot
+
 All visualizations are generated in Python.
 
 
@@ -80,6 +86,7 @@ The analysis highlights:
 • How peak outbreaks aligned globally around late 2021 – early 2022
 • CFR trends demonstrate the dramatic improvement of medical response and detection
 as the pandemic progressed
+
 The project also reinforces the importance of:
 • Constant data validation
 • Cleaning throughout the workflow

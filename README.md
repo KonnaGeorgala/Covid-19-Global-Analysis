@@ -102,8 +102,7 @@ Tools Used
 
 Contents
 
-• Jupyter Notebook with full code and plots
-• Exported PDF with results and commentary
+• Jupyter Notebook with full code, plots and notes
 • This README
 
 

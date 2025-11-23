@@ -11,10 +11,8 @@ The analysis is done in Python using Pandas and Matplotlib, inside a Jupyter Not
 
 Dataset
 
-Source: Our World in Data / COVID-19 dataset
-
-Format: CSV
-
+Source: Our World in Data / COVID-19 dataset - 
+Format: CSV - 
 Scope: Daily records for each country, including cases, deaths, testing, vaccination, and
 demographic information.
 
